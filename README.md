@@ -6,6 +6,7 @@ Java (JDK)
 
 <h2>Install JDK</h2>
 sudo apt update
+</br>
 sudo apt install openjdk-11-jre
 
 <h2>Check java installed or not</h2>
