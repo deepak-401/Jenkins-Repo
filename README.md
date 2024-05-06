@@ -19,6 +19,7 @@ curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  </br>
 sudo apt-get update
 </br>
 sudo apt-get install jenkins
